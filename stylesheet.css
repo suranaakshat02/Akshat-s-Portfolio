@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 10px 0;
+  background-image:url(https://storage-prtl-co.imgix.net/endor/articles/426/images/1563266564_shutterstock_728178127c.jpg?h=480&w=1920&fit=crop&auto=format,compress);
+  color: white;
+  text-align: left;
+  height: 500px;
+  background-repeat: no-repeat;  
+}
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  font-family: 'Times New Roman';
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.4;
+  margin-bottom: 3px;
+}
+
+.image{
+    display: block;
+    object-position: top;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+.name{
+  text-align: center;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(5 46 75 / 90%);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+.center{
+  text-align: center;
+}
+.hobbies{
+  text-align: center;
+  font-size: medium;
+}
+.skills{
+  text-align: center;
+}
+.linkedin {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: rgba(218, 193, 173, 0.932);
+}
+
+.message {
+  padding: 15px 40px;
+  background-color:#da2607 ;
+  cursor: pointer;
+  box-shadow: 0 7px #eb7303;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+footer p {
+  color: #050103;
+  font-size: 15px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
